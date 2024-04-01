@@ -1,0 +1,27 @@
+.pag3-3{
+	height: 400px;
+	background-image: url("https://www.levelset.com/wp-content/uploads/2021/07/Types-of-construction-companies.png");
+	
+	filter: brightness(0.6);
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    height: 45px;
+    background-color: #1f1f1f;
+  }
+  .map1-1{
+    margin-top: 100px;
+  }

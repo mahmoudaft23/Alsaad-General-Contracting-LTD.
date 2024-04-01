@@ -1,0 +1,98 @@
+.font1{
+    font-family: 'Berlin Sans FB';
+
+}
+.font2{
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: large;
+}
+.ImageSlide1
+{
+    background-size : cover;
+    background-position: center;
+}
+p{
+    padding-right: 2rem;
+    padding-left:2rem;
+}
+a>button.btn-expand-hov{
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    transition-property: padding;
+}
+a>button.btn-expand-hov:hover{
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+.fb-logo{
+    color: #1f1f1f;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: color;
+}
+.fb-logo:hover{
+    color: #0a82ed;
+    transform: scale(1.5);
+}
+
+.g-logo{
+    color: #1f1f1f;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: color;
+}
+.g-logo:hover{
+    color: #ea4335;
+    transform: scale(1.5);
+}
+.tw-logo{
+    color: #1f1f1f;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: color;
+}
+.tw-logo:hover{
+    color: #1d9bf0;
+    transform: scale(1.5);
+}
+.gh-logo{
+    color: #1f1f1f;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: color;
+}
+.gh-logo:hover{
+    color: #ea4335;
+    transform: scale(1.5);
+}
+html, body {
+    max-width: 100%;
+    scroll-padding-top: 9rem;
+    overflow-x: clip;
+}
+@media (max-width: 760px) {
+    html, body {
+        max-width: 100%;
+        scroll-padding-top: 20rem;
+    }
+    
+}
+.ppp{
+    /*height: 400px;*/
+    background-image: url("photos/pexels-karol-d-409701.jpg");
+
+    /*filter: brightness(0.6);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+
+}
+/*.divv{
+    transition-delay: 0.7s;
+    transition-timing-function: linear;
+}*/

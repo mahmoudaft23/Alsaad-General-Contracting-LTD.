@@ -1,0 +1,29 @@
+.font1{
+    font-family: 'Berlin Sans FB';
+
+}
+.font2{
+    font-family: "Calibri Light";
+    font-weight: bold;
+}
+.ImageSlide1
+{
+    background-size : cover;
+    background-position: center;
+}
+p{
+    padding-right: 2rem;
+    padding-left:2rem;
+}
+html, body {
+    max-width: 100%;
+    scroll-padding-top: 9rem;
+}
+@media (max-width: 760px) {
+    html, body {
+        max-width: 100%;
+        scroll-padding-top: 18rem;
+    }
+    
+}
+

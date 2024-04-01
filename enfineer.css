@@ -1,0 +1,76 @@
+.pag4-4{
+	height: 400px;
+	background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3GgkKundG6WGpPHOPFBdDq/7cba9177de38af6c6fd9f30b7d377a91/Construction-workers-and-architect-looking-at-blueprints-on-construction-site-514311930_5413x3609__1_.jpeg");
+	
+	filter: brightness(0.6);
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.enginerinname{
+    display: flex;
+    justify-content: center;
+}
+.enginerinname1-1{
+    width: 50%;
+    display: flex;
+}
+.enginerinname1-2{
+    margin-left: 50px;
+}
+.inf1-1{
+    display: flex;
+    justify-content: center;
+}
+.outf1-1{
+    width: 100%;
+}
+.inprofile1-1{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+}
+.inprofile1-1 img{
+    height: 70px;
+}
+.inf1-2{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.inf1-2 input {
+  border: 2px solid rgb(174, 0, 0);  
+  margin-right: 10px;
+}
+.inf1-2 select {
+  border: 2px solid rgb(174, 0, 0);  
+  margin-right: 10px;
+  width: 176px;
+  height: 28px;
+}
+input.larger {
+   
+    width: 20px;
+    height: 20px;
+    
+  }
+  textarea{
+    
+    width: 700px;
+    height: 150px;
+  }
+  .inf2-1 input{
+    border: 2px solid rgb(204, 204, 204);
+    background-color: transparent;
+    width: 150px;
+   
+
+  }
+  .inf2-1 input:hover{
+    border: 2px solid rgb(174, 0, 0);
+   color:rgb(174, 0, 0) ;
+
+  }
+  

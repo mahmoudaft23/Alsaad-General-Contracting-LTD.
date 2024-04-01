@@ -1,0 +1,169 @@
+.pagemanger1-1{
+    display: flex;
+    justify-content: flex-end;
+}
+.pagemanger1-1 i{
+   margin-right: 20px;
+   font-size: 25px;
+   
+}
+.pagemanger1-1 i{
+   
+    font-size: 25px;
+ }
+section.pag3-3 {
+    position: relative; /* set position to relative */
+    height: 400px;
+    background-image: url("https://www.getreskilled.com/wp-content/uploads/2017/02/project-engineer-getreskilled.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.pag3-3::before {
+    content: "";
+    position: absolute; /* set position to absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* set the overlay color and transparency */
+    filter: brightness(0.6); /* apply the filter to the overlay */
+}
+
+
+.em1-1{
+    margin-top: 60px;
+    
+}
+.em1-1 hr{
+   width: 70px;
+    font-weight: 90px;
+    
+}
+.em2-1{
+    display: flex;
+    justify-content: center;
+    
+}
+.em1-2 div{
+    width: 800px;
+}
+.em1-2{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.em1-2 p{
+    font-size: 15px;
+}
+.em2-1 p{
+    font-size: 25px;
+}
+.r1-1{
+    margin-top: 70px;
+}
+.carda1-1{
+    border: 0 solid #e2e8f0;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.column {
+    float: left;
+    width: 320px;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+width: 1000px;
+margin-top: 50px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+ .cardff1-1{
+  display: flex;
+  justify-content: center;
+ }
+ .column{
+
+    
+ }
+ .column div{
+   width: 100%;
+   
+ }
+ .column img{
+  width: 100%;
+  height: 260px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin-top: 2px;
+  
+ }
+ .column p{
+  margin-bottom: 0px;
+
+ }
+ .editdiv1-1{
+  margin-top: 25px;
+ }
+ .editdiv1-1>p{
+     text-decoration: none;
+ }
+
+ .margin1-1{
+  margin-left: 10px;
+ }
+ .incolumn{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*height*/
+  text-align: center;
+    background-color: white;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 12px;
+    /*transition:  0.5s;*/
+     transition: box-shadow;
+ }
+
+ /*.incolumn:hover{*/
+ /* margin-top: -10px;*/
+ /*}*/
+.incolumn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+ .em1-1 div{
+ display: flex;
+ justify-content: center;
+ }
+ .row a{
+  width: 320px;
+ }
